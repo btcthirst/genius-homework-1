@@ -1,4 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-primary: rgba(255, 255, 255, 1);
+    --color-primary-dark: rgba(1, 28, 68, 1);
+    --color-brand: rgba(43, 127, 255, 1);
+    --color-secondary-gray: rgba(74, 74, 74, 1);
+    --color-secondary-dark: rgba(74, 74, 74, 1);
+    --color-secondary-light: rgba(116, 114, 114, 1);
+    --color-secondary-deep: rgba(1, 31, 74, 1);
+    --color-secondary-yellow: rgba(255, 208, 43, 1);
+}
+
+body {
+    background-color: var(--color-primary);
+    color: var(--color-primary-dark);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+footer {
+    background-color: var(--color-primary-dark);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-family: Play;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: 400;
+}
+h3 {
+    font-weight: 600;
+}
+
+.header-link {
+    color: var(--color-primary-dark);
+}
+
+.header-link:hover {
+    color: var(--color-brand);
+}
+
+.header-link:active {
+    color: var(--color-brand);
+}
+
+.footer-link {
+    color: var(--color-primary);
+}
+
+.footer-link:hover {
+    color: var(--color-brand);
+}
+
+.pl-100 {
+    padding-left: 100px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.politics {
+    color: var(--color-primary);
+}
+
+.data-save {
+    color: var(--color-secondary-light);
+    font-size: 13px;
+}
+
 .d-flex {
     display: flex;
+}
+
+.addres-flex {
+    display: flex;
     flex-direction: column;
+}
+
+.footer-gap {
+    gap: 186px;
 }
