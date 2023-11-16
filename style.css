@@ -41,17 +41,21 @@ h2 {
 
 h1 {
     font-weight: bold;
+    font-size: 140px;
 }
 
 h2 {
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 64px;
 }
 h3 {
     font-weight: 600;
 }
 
+/*links*/
 .header-link {
     color: var(--color-primary-dark);
+    text-transform: capitalize;
 }
 
 .header-link:hover {
@@ -69,6 +73,8 @@ h3 {
 .footer-link:hover {
     color: var(--color-brand);
 }
+
+/*footer*/
 
 .pl-100 {
     padding-left: 100px;
@@ -91,6 +97,38 @@ h3 {
     font-size: 13px;
 }
 
+/*buttons*/
+.butt-primary {
+    background-color: var(--color-brand);
+    color: var(--color-primary);
+    border: 2px solid var(--color-brand);
+    border-radius: 32px;
+    padding: 16px 32px;
+    font-weight: 600;
+    font-size: 18;
+}
+
+.butt-primary:hover {
+    background-color: transparent;
+    color: var(--color-primary-dark);
+    cursor: pointer;
+}
+
+/*titles*/
+.header-title {
+    color: var(--color-brand);
+    text-transform: capitalize;
+}
+
+.header-title-secondary {
+    color: var(--color-secondary-dark);
+    font-size: 12px;
+}
+
+.title-accent {
+    color: var(--color-brand);
+}
+/*else*/
 .d-flex {
     display: flex;
 }
